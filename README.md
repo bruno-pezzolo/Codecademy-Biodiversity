@@ -1,6 +1,6 @@
 # Biodiversity in U.S. National Parks (Codecademy Data Analysis Project)
 
-This repository contains a Codecademy Data Analysis project where I analyze National Park Service data on endangered species across U.S. national parks. The goal of the project is to investigate conservation statuses and to look for patterns or themes among species that become endangered.
+This repository contains a Codecademy Data Analysis project where we'll analyze National Park Service data on endangered species. The goal of the project is to investigate conservation statuses and to look for patterns or themes among species that become endangered.
 
 Project objective
 
