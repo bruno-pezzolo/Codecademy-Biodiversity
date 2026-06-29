@@ -65,8 +65,7 @@ Contributing
 
 Acknowledgements
 
-- National Park Service for the endangered species data
-- Codecademy for providing the Data Analysis project framework and learning materials
+- Codecademy for providing the Data Analysis project framework, learning materials and data
 
 Author
 
