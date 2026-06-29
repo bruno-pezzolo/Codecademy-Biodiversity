@@ -4,41 +4,23 @@ This repository contains a Codecademy Data Analysis project where I analyze Nati
 
 Project objective
 
-For this project, you will interpret data from the National Park Service about endangered species in different parks.
-
-You will perform some data analysis on the conservation statuses of these species and investigate if there are any patterns or themes to the types of species that become endangered. During this project, you will analyze, clean up, and plot data as well as pose questions and seek to answer them in a meaningful way.
-
-After you perform your analysis, you will share your findings about the National Park Service.
-
-Example Project
-
-Example Biodiversity in National Parks Project
-
-Project objectives
-
-- Complete a project to add to your portfolio
+- Complete a project to add to my portfolio
 - Use Jupyter Notebook to communicate findings
 - Run an analysis on a set of data
 - Become familiar with the data analysis workflow
 
-Prerequisites
-
-- Familiarity with Python and Jupyter Notebook
-- Codecademy coursework: Data Visualization and Communicating Data Science Findings
-- Python packages: pandas, numpy, matplotlib, seaborn (see optional requirements below)
-
-Repository contents (suggested structure)
+Repository contents
 
 - data/
   - raw/                # original downloaded datasets (CSV/JSON)
   - processed/          # cleaned data used in analysis
 - notebooks/
   - biodiversity_analysis.ipynb  # main exploratory notebook with analysis and plots
-- README.md             # this file
-- LICENSE               # optional — add a license if you want to share publicly
+- README.md             
+- LICENSE               
 - requirements.txt      # optional — pinned dependencies for reproducibility
 
-What I analyze
+Analysis
 
 - Conservation status counts (e.g., Endangered, Threatened, Species of Concern)
 - Distribution of endangered species across parks and taxonomic groups
@@ -58,13 +40,7 @@ How to reproduce the analysis
 
    git clone https://github.com/bruno-pezzolo/Codecademy-Biodiversity.git
 
-2. (Optional, recommended) Create and activate a virtual environment:
-
-   python -m venv .venv
-   source .venv/bin/activate   # macOS / Linux
-   .\\.venv\\Scripts\\activate  # Windows (PowerShell)
-
-3. Install dependencies (if a requirements.txt is provided):
+2. Install dependencies (if a requirements.txt is provided):
 
    pip install -r requirements.txt
 
@@ -72,16 +48,11 @@ How to reproduce the analysis
 
    pip install pandas numpy matplotlib seaborn jupyter
 
-4. Start Jupyter Notebook and open the notebook:
+3. Start Jupyter Notebook and open the notebook:
 
    jupyter notebook notebooks/biodiversity_analysis.ipynb
 
-5. Execute the notebook cells to reproduce the analysis, figures, and conclusions.
-
-Notes on data
-
-- Place the raw National Park Service dataset(s) into data/raw/. If the dataset is not included in the repo due to size or licensing, provide instructions or a link to the download source in the notebook and in a note file inside data/raw/.
-- Keep processed/ data under data/processed/ and do not commit large intermediate files unless necessary. Consider adding data/raw/ and data/processed/ to .gitignore if the files are large.
+4. Execute the notebook cells to reproduce the analysis, figures, and conclusions.
 
 Findings and conclusions
 
@@ -100,11 +71,3 @@ Acknowledgements
 Author
 
 - Bruno Pezzolo — https://github.com/bruno-pezzolo
-
-License
-
-- This project does not include a license by default. If you want to share the repository publicly, consider adding a license such as MIT or CC-BY. Add a LICENSE file to the repository.
-
-If you'd like, I can:
-- Tailor the README to include the actual filenames in your repo (notebook name, data file names) — I can scan the repository to list them automatically.
-- Add a requirements.txt and simple environment setup file (environment.yml) for reproducibility.
